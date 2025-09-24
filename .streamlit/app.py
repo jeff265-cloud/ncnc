@@ -6,7 +6,7 @@ from dateutil import parser as dtparser
 import pytz
 import streamlit as st
 
-st.set_page_config(page_title="FPL Mini-League Analytics", layout="wide")
+st.set_page_config(page_title="NCNC 25/26", layout="wide")
 
 # -----------------------------------
 # Settings
@@ -220,7 +220,7 @@ except Exception as e:
     st.error(f"Failed to load league {league_id}: {e}")
     st.stop()
 
-st.title(f"FPL Mini-League: {league_meta.get('name','(unknown)')}")
+st.title(f"League: {league_meta.get('name','(unknown)')}")
 st.caption(f"League ID: {league_id}")
 
 live_df = live_points_for_gw(int(gw))

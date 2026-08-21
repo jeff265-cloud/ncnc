@@ -11,7 +11,7 @@ st.set_page_config(page_title="NCNC 25/26", layout="wide")
 # -----------------------------------
 # Settings
 # -----------------------------------
-DEFAULT_LEAGUE_ID = 497796
+DEFAULT_LEAGUE_ID = 1133960
 BRISBANE_TZ = pytz.timezone("Australia/Brisbane")
 
 # -----------------------------------
